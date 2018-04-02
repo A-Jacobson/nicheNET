@@ -2,7 +2,7 @@ setwd('~/Desktop/nicheNet')
 library(raster)
 library(spatial.tools)
 library(rgdal)
-
+ 
 
 #read in known occurence points
 read.csv("./data/Locs.csv")->points 
